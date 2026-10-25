@@ -1,0 +1,295 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Анна Смирнова",
+      "email": "anna@example.com",
+      "passwordHash": "$2b$10$lFKfBfWv0f4yQd5r85/Kxe8exZV4YKdH9aVk0eKiiaK.t/ewbsYKu",
+      "avatarUrl": null,
+      "createdAt": "2026-07-27T09:12:48.084Z"
+    },
+    {
+      "id": 2,
+      "name": "Иван Петров",
+      "email": "ivan@example.com",
+      "passwordHash": "$2b$10$Djfz9qPN3lBkQiRi.V59F.ce2rrUO23JHDObjUgsxYVuV5y5/66B6",
+      "avatarUrl": null,
+      "createdAt": "2026-07-28T09:12:48.084Z"
+    },
+    {
+      "id": 3,
+      "name": "Мария Волкова",
+      "email": "maria@example.com",
+      "passwordHash": "$2b$10$1rT3a7I4VjKOLxJ7tEslcuJyr/zALCxgQJkuyUnCTDvlLbwqwerCy",
+      "avatarUrl": null,
+      "createdAt": "2026-07-29T09:12:48.084Z"
+    },
+    {
+      "id": 4,
+      "name": "Дмитрий Орлов",
+      "email": "dmitry@example.com",
+      "passwordHash": "$2b$10$yy2XGw1uk4f3ruPUmLS0de9LHSAcuizZ8dTy8dDCDrOqwmbgMlYBG",
+      "avatarUrl": null,
+      "createdAt": "2026-07-30T09:12:48.084Z"
+    },
+    {
+      "id": 5,
+      "name": "Елена Кузнецова",
+      "email": "elena@example.com",
+      "passwordHash": "$2b$10$U5V0M0yaO6G23kQi.R5rZef1XijCaPJOf3gzZO7zUBVJZAx5X5pZ2",
+      "avatarUrl": null,
+      "createdAt": "2026-07-31T09:12:48.084Z"
+    },
+    {
+      "id": 6,
+      "name": "Тестовый пользователь",
+      "email": "student@example.com",
+      "passwordHash": "$2b$10$m0ZF6kuOj0j7C80aXiEeSewtS522HZXofVqWhEJzQIf9d3NG.N/oC",
+      "avatarUrl": null,
+      "createdAt": "2026-08-01T09:12:48.084Z"
+    }
+  ],
+  "apartments": [
+    {
+      "id": 1,
+      "title": "Светлая квартира у набережной",
+      "address": "Волжская набережная, 12",
+      "city": "Ярославль",
+      "imageUrl": null,
+      "createdAt": "2026-04-28T09:12:48.084Z"
+    },
+    {
+      "id": 2,
+      "title": "Уютная студия в центре",
+      "address": "ул. Кирова, 8",
+      "city": "Ярославль",
+      "imageUrl": null,
+      "createdAt": "2026-05-28T09:12:48.084Z"
+    },
+    {
+      "id": 3,
+      "title": "Квартира с видом на парк",
+      "address": "ул. Свободы, 41",
+      "city": "Ярославль",
+      "imageUrl": null,
+      "createdAt": "2026-06-27T09:12:48.084Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "apartmentId": 1,
+      "userId": 6,
+      "rating": 5,
+      "title": "Отличный отдых",
+      "comment": "Очень чисто и уютно, заселение прошло без проблем.",
+      "createdAt": "2026-09-10T09:12:48.084Z",
+      "updatedAt": "2026-09-10T09:12:48.084Z"
+    },
+    {
+      "id": 2,
+      "apartmentId": 1,
+      "userId": 2,
+      "rating": 4,
+      "title": "Хорошее расположение",
+      "comment": "Рядом набережная и кафе, до центра легко добраться.",
+      "createdAt": "2026-09-12T09:12:48.084Z",
+      "updatedAt": "2026-09-12T09:12:48.084Z"
+    },
+    {
+      "id": 3,
+      "apartmentId": 1,
+      "userId": 3,
+      "rating": 5,
+      "title": "Всё понравилось",
+      "comment": "Квартира полностью соответствует фотографиям.",
+      "createdAt": "2026-09-14T09:12:48.084Z",
+      "updatedAt": "2026-09-14T09:12:48.084Z"
+    },
+    {
+      "id": 4,
+      "apartmentId": 1,
+      "userId": 4,
+      "rating": 4,
+      "title": "Комфортно",
+      "comment": "Было всё необходимое для нескольких дней проживания.",
+      "createdAt": "2026-09-16T09:12:48.084Z",
+      "updatedAt": "2026-09-16T09:12:48.084Z"
+    },
+    {
+      "id": 5,
+      "apartmentId": 1,
+      "userId": 5,
+      "rating": 5,
+      "title": "Вернёмся снова",
+      "comment": "Удобная кровать, тихий двор и приятный хозяин.",
+      "createdAt": "2026-09-18T09:12:48.084Z",
+      "updatedAt": "2026-09-18T09:12:48.084Z"
+    },
+    {
+      "id": 6,
+      "apartmentId": 1,
+      "userId": 1,
+      "rating": 3,
+      "title": "Есть нюансы",
+      "comment": "В целом хорошо, но хотелось бы больше посуды на кухне.",
+      "createdAt": "2026-09-20T09:12:48.084Z",
+      "updatedAt": "2026-09-20T09:12:48.084Z"
+    },
+    {
+      "id": 7,
+      "apartmentId": 1,
+      "userId": 2,
+      "rating": 5,
+      "title": "Прекрасное место",
+      "comment": "Чистая квартира в красивом районе, рекомендую.",
+      "createdAt": "2026-09-22T09:12:48.084Z",
+      "updatedAt": "2026-09-22T09:12:48.084Z"
+    },
+    {
+      "id": 8,
+      "apartmentId": 1,
+      "userId": 3,
+      "rating": 4,
+      "title": "Удобно и спокойно",
+      "comment": "Хорошее место для короткой поездки, всё рядом.",
+      "createdAt": "2026-09-24T09:12:48.084Z",
+      "updatedAt": "2026-09-24T09:12:48.084Z"
+    },
+    {
+      "id": 9,
+      "apartmentId": 1,
+      "userId": 4,
+      "rating": 4,
+      "title": "Хороший вариант",
+      "comment": "Цена соответствует качеству, заселение быстрое.",
+      "createdAt": "2026-09-26T09:12:48.084Z",
+      "updatedAt": "2026-09-26T09:12:48.084Z"
+    },
+    {
+      "id": 10,
+      "apartmentId": 1,
+      "userId": 5,
+      "rating": 5,
+      "title": "Замечательная квартира",
+      "comment": "Просторно, светло и очень аккуратно.",
+      "createdAt": "2026-09-28T09:12:48.084Z",
+      "updatedAt": "2026-09-28T09:12:48.084Z"
+    },
+    {
+      "id": 11,
+      "apartmentId": 1,
+      "userId": 1,
+      "rating": 4,
+      "title": "Всё рядом",
+      "comment": "Магазины, остановка и достопримечательности поблизости.",
+      "createdAt": "2026-09-30T09:12:48.084Z",
+      "updatedAt": "2026-09-30T09:12:48.084Z"
+    },
+    {
+      "id": 12,
+      "apartmentId": 1,
+      "userId": 2,
+      "rating": 5,
+      "title": "Тихое место",
+      "comment": "Отдохнули отлично, ночью было тихо и комфортно.",
+      "createdAt": "2026-10-02T09:12:48.084Z",
+      "updatedAt": "2026-10-02T09:12:48.084Z"
+    },
+    {
+      "id": 13,
+      "apartmentId": 1,
+      "userId": 3,
+      "rating": 3,
+      "title": "Неплохо",
+      "comment": "Квартира понравилась, небольшие замечания не испортили поездку.",
+      "createdAt": "2026-10-04T09:12:48.084Z",
+      "updatedAt": "2026-10-04T09:12:48.084Z"
+    },
+    {
+      "id": 14,
+      "apartmentId": 1,
+      "userId": 4,
+      "rating": 5,
+      "title": "Рекомендую",
+      "comment": "Опрятное жильё и понятная инструкция по заселению.",
+      "createdAt": "2026-10-06T09:12:48.084Z",
+      "updatedAt": "2026-10-06T09:12:48.084Z"
+    },
+    {
+      "id": 15,
+      "apartmentId": 1,
+      "userId": 5,
+      "rating": 4,
+      "title": "Отличная поездка",
+      "comment": "Всё прошло хорошо, хозяин был на связи.",
+      "createdAt": "2026-10-08T09:12:48.084Z",
+      "updatedAt": "2026-10-08T09:12:48.084Z"
+    },
+    {
+      "id": 16,
+      "apartmentId": 1,
+      "userId": 1,
+      "rating": 5,
+      "title": "Уютно",
+      "comment": "Приятный интерьер и удобное расположение.",
+      "createdAt": "2026-10-10T09:12:48.084Z",
+      "updatedAt": "2026-10-10T09:12:48.084Z"
+    },
+    {
+      "id": 17,
+      "apartmentId": 1,
+      "userId": 2,
+      "rating": 4,
+      "title": "Хороший отдых",
+      "comment": "Остановились на выходные и остались довольны.",
+      "createdAt": "2026-10-12T09:12:48.084Z",
+      "updatedAt": "2026-10-12T09:12:48.084Z"
+    },
+    {
+      "id": 18,
+      "apartmentId": 1,
+      "userId": 3,
+      "rating": 5,
+      "title": "Спасибо",
+      "comment": "Чисто, спокойно и удобно для прогулок по городу.",
+      "createdAt": "2026-10-14T09:12:48.084Z",
+      "updatedAt": "2026-10-14T09:12:48.084Z"
+    },
+    {
+      "id": 19,
+      "apartmentId": 2,
+      "userId": 1,
+      "rating": 5,
+      "title": "Студия супер",
+      "comment": "Чисто, удобно и близко к основным местам города.",
+      "createdAt": "2026-10-22T09:12:48.084Z",
+      "updatedAt": "2026-10-22T09:12:48.084Z"
+    },
+    {
+      "id": 20,
+      "apartmentId": 2,
+      "userId": 2,
+      "rating": 4,
+      "title": "Хорошо для выходных",
+      "comment": "Удобное расположение, заселение прошло быстро.",
+      "createdAt": "2026-10-14T09:12:48.084Z",
+      "updatedAt": "2026-10-14T09:12:48.084Z"
+    },
+    {
+      "id": 21,
+      "apartmentId": 2,
+      "userId": 3,
+      "rating": 5,
+      "title": "Советую",
+      "comment": "Небольшая, но очень уютная квартира в центре.",
+      "createdAt": "2026-10-07T09:12:48.084Z",
+      "updatedAt": "2026-10-07T09:12:48.084Z"
+    }
+  ],
+  "nextIds": {
+    "user": 7,
+    "apartment": 4,
+    "review": 22
+  }
+}
